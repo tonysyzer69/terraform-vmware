@@ -19,8 +19,12 @@
 
 <a name="authentication"></a>
 ## 3. Terraform Vsphere Authentication
-
-setup
+- Create Vcenter login file
+$ vi ~/.fos-vcenter/terraform.tfvars
+vsphere_user = "XXXXXXXXXXXXXXXXX"
+vsphere_password = "YYYYYYYYYYYYY"
+saccount_username="XXXX"
+saccount_password="YYYYYYYYYYYYYY"
 
 <a name="create"></a>
 ## 4.Create VM
