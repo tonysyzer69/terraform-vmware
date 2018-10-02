@@ -32,14 +32,14 @@ saccount_password="YYYYYYYYYYYYYY"
 $ cat data/vm_definitions.csv       
 testserver1,172.16.3.47,1,4096,40,24,172.16.3.1,TMPL-win-srv-2012-std-20180421,fos-qnas01-esx-ds01,fos-prod01,VM Network,FOS
 
-2. Run generate_vm.sh script to generate Terraform templates    
+2. Run generate_vm.sh script to generate Terraform template    
 $ ./generate_vm.sh    
 
 2. Run Terraform to validate template    
 $ cd lib    
 $ terraform plan -var-file=~/.fos-vcenter/terraform.tfvars    
 
-3. Run terraform to apply the changes    
+3. Run terraform apply to spin up VM        
 $ terraform apply -var-file=~/.fos-vcenter/terraform.tfvars    
 
 <a name="delete"></a>
@@ -48,12 +48,12 @@ $ terraform apply -var-file=~/.fos-vcenter/terraform.tfvars
 $ cat data/vm_definitions.csv       
 #testserver1,172.16.3.47,1,4096,40,24,172.16.3.1,TMPL-win-srv-2012-std-20180421,fos-qnas01-esx-ds01,fos-prod01,VM Network,FOS
 
-2. Run generate_vm.sh script to generate Terraform templates    
+2. Run generate_vm.sh script to delete Terraform template    
 $ ./generate_vm.sh    
 
 2. Run Terraform to validate template    
 $ cd lib    
 $ terraform plan -var-file=~/.fos-vcenter/terraform.tfvars    
 
-3. Run terraform to apply the changes    
+3. Run terraform apply to delete VM    
 $ terraform apply -var-file=~/.fos-vcenter/terraform.tfvars    
