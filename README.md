@@ -28,8 +28,8 @@ saccount_password="YYYYYYYYYYYYYY"
 
 <a name="create"></a>
 ## 4.Create VM
-1. Modify servers definition file
-$ vi data/vm_definitions.csv
+1. Modify servers definition file    
+$ vi data/vm_definitions.csv    
 
   Sample entry to be added:
   testserver1,172.16.3.47,1,4096,40,24,172.16.3.1,TMPL-win-srv-2012-std-20180421,fos-qnas01-esx-ds01,fos-prod01,VM Network,FOS
