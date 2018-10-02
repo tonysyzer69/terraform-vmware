@@ -26,6 +26,8 @@ vsphere_password = "YYYYYYYYYYYYY"
 saccount_username="XXXX"    
 saccount_password="YYYYYYYYYYYYYY"    
 
+Note: password is in Secrets.
+
 <a name="create"></a>
 ## 4.Create VM
 
