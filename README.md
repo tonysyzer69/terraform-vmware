@@ -19,7 +19,7 @@
 
 <a name="authentication"></a>
 ## 3. Terraform Vsphere Authentication
-- Create Vcenter login file    
+- Create Vcenter login file (Sensitive Stuff - stay local, not github)    
 $ cat ~/.fos-vcenter/terraform.tfvars  
 vsphere_user = "XXXXXXXXXXXXXXXXX"    
 vsphere_password = "YYYYYYYYYYYYY"    
