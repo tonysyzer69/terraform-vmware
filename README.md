@@ -32,15 +32,15 @@ saccount_password="YYYYYYYYYYYYYY"
 $ cat data/vm_definitions.csv       
 testserver1,172.16.3.47,1,4096,40,24,172.16.3.1,TMPL-win-srv-2012-std-20180421,fos-qnas01-esx-ds01,fos-prod01,VM Network,FOS
 
-2. Run generate_vm.sh script to generate Terraform templates
-$ ./generate_vm.sh
+2. Run generate_vm.sh script to generate Terraform templates    
+$ ./generate_vm.sh    
 
-2. Run Terraform to validate template
-$ cd lib
-$ terraform plan -var-file=~/.fos-vcenter/terraform.tfvars
+2. Run Terraform to validate template    
+$ cd lib    
+$ terraform plan -var-file=~/.fos-vcenter/terraform.tfvars    
 
-3. Run terraform to apply the changes
-$ terraform apply -var-file=~/.fos-vcenter/terraform.tfvars
+3. Run terraform to apply the changes    
+$ terraform apply -var-file=~/.fos-vcenter/terraform.tfvars    
 
 <a name="delete"></a>
 ## 5. Delete VM
