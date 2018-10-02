@@ -1,7 +1,7 @@
 ## terraform-vmware
 
 1. [ Description. ](#desc)
-2. [ Usage tips. ](#setup)
+2. [ Terraform Vsphere Authentication. ](#authentication)
 3. [ Usage tips. ](#create)
 4. [ Usage tips. ](#delete)
 
@@ -10,17 +10,17 @@
 
 desc
 
-<a name="setup"></a>
-## 2. Usage tips
+<a name="authentication"></a>
+## 2. Terraform Vsphere Authentication
 
 setup
 
 <a name="create"></a>
-## 3. Usage tips
+## 3.Create VM
 
 create
 
 <a name="delete"></a>
-## 4. Usage tips
+## 4. Delete VM
 
 delete
