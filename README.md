@@ -2,8 +2,8 @@
 
 1. [ Description. ](#desc)
 2. [ Terraform Vsphere Authentication. ](#authentication)
-3. [ Usage tips. ](#create)
-4. [ Usage tips. ](#delete)
+3. [ Create VM. ](#create)
+4. [ Delete VM. ](#delete)
 
 <a name="desc"></a>
 ## 1. Description
