@@ -13,8 +13,7 @@ desc
 
 <a name="pre"></a>
 ## 2. Prerequisites
-
-Prerequisites
+* Install Terraform https://www.terraform.io/downloads.html
 
 <a name="authentication"></a>
 ## 3. Terraform Vsphere Authentication
